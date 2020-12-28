@@ -3,6 +3,14 @@ The goal of this project is an attempt to beat the odds of Vegas when it comes t
 
 The files are broken down as follows:
 
+Scripts
 1) WebScrape.ipynb -- Scrapes the necessary information from the Sherdog webiste 
 2) ETL.ipynb -- this file takes the raw scraped data, cleans and transforms it, and then writes it to our database. This script also creates the tables within the dataframe.
 3) Model Building.ipynb -- this file queries our database, creates features, and then uses that data for model selection
+
+CSV's 
+Under the UFC Data Folder
+1) preprocessed data -- contains information on UFC fighters that was taken from Kaggle. Necessary for the ETL script.
+2) scraped_fights -- contains the information scraped from Sherdog.com. Necessary for the ETL script.
+3) cleaned_fight_data - contains the cleaned fight data that was added to our database. Necessary for the Model Building script.
+4) cleaned_fighter_daat -- contains the cleaned fighter data that was added to our database. Necessary for the Model Building script.
