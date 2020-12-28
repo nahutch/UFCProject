@@ -9,7 +9,7 @@ Scripts
 3) Model Building.ipynb -- this file queries our database, creates features, and then uses that data for model selection
 
 CSV's 
-Under the UFC Data Folder
+(Under the UFC Data Folder)
 1) raw_total_fight_data -- contains information on UFC fighters that was taken from Kaggle. Necessary for the ETL script.
 2) scraped_fights -- contains the information scraped from Sherdog.com. Necessary for the ETL script.
 3) fight_data_cleaned - contains the cleaned fight data that was added to our database. Necessary for the Model Building script.
